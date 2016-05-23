@@ -1,11 +1,11 @@
 // Business Logic //
 
 exports.Journal = function(title, body){
-  this.title = tittle;
+  this.title = title;
   this.body = body;
 };
 
 
 exports.Journal.prototype.read = function() {
-  return "The tittle you picked is " + this.title + "and your post " + this.body;
+  return "The title you picked is " + this.title + "and your post " + this.body;
 };
